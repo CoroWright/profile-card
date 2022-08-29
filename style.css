@@ -13,10 +13,10 @@
 
 body {
     background-color: var(--dark-cyan);
-    /* background-image: url(images/bg-pattern-top.svg);
-    background-image: url(images/bg-pattern-bottom.svg);
-    background-repeat: no-repeat;
-    background-position: left top; */
+    background-image:url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    /* background-position: left 75vh, right 70vh; */
+    background-position:left -54% top 60%, right -55% top -33%;
 }
 
 .card {
@@ -73,5 +73,5 @@ p {
     align-items: center;
 
     padding: 2rem 1rem;
-    border-top: .01rem solid var(--very-dark-desaturated-blue);
+    border-top: .01rem solid var(--dark-gray);
 }
